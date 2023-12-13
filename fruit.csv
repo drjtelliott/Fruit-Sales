@@ -1,0 +1,13 @@
+import pandas as pd
+
+# Creating a dictionary with the given data
+data = {
+    'Apples': [35, 41],
+    'Bananas': [21, 34]
+}
+
+# Creating a DataFrame from the dictionary
+df = pd.DataFrame(data, index=['2017 Sales', '2018 Sales'])
+
+# Displaying the DataFrame
+print(df)
